@@ -62,6 +62,8 @@
   background-repeat: no-repeat;
   background-position-x: 14px;
   background-position-y: center;
+  outline: none;
+  border: none;
 }
 .from-search__input-search::placeholder {
   font-size: 14px;
