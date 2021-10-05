@@ -58,7 +58,7 @@
   padding-left: 39px;
   border: 1px solid #ebebf1;
   border-radius: 5px;
-  background-image: url('../img/header/search.svg');
+  background-image: url('https://cdn1.savepice.ru/uploads/2021/10/5/061c369a3b89c2d50a420f6aa0c4474d-full.png');
   background-repeat: no-repeat;
   background-position-x: 14px;
   background-position-y: center;
@@ -115,7 +115,7 @@
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-image: url(https://my-engine.ru/modules/users/avatar.png);
+  background-image: url('https://my-engine.ru/modules/users/avatar.png');
 }
 @media (max-width: 600px) {
   .user__avatar {
@@ -165,7 +165,7 @@
 .partners {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px -15px -15px;
+  margin: -15px;
 }
 @media (max-width: 850px) {
   .partners {
@@ -173,9 +173,6 @@
   }
 }
 .partners__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 15px;
   padding: 18px;
   width: calc(25% - 30px);
